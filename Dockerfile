@@ -11,4 +11,4 @@ COPY ./target/Demo2-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8085
 
 # Starting the application
-CMD ["java", "-jar", "Demo2-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "Demo2-0.0.1-SNAPSHOT.jar"]
