@@ -11,4 +11,4 @@ COPY ./target/Demo2-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8085
 
 # Starting the application
-ENTRYPOINT ["java", "-jar", "Demo2-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar","-Dserver.port=8085","Demo2-0.0.1-SNAPSHOT.jar"]
