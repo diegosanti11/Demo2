@@ -83,8 +83,6 @@
 				<version>3.7.0.1746</version>
 			      </plugin>
 		</plugins>
-
-		<finalName>Demo2_1</finalName>
 	</build>
 
 </project>
